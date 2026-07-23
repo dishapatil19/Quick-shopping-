@@ -1,0 +1,264 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing : border-box;
+}
+
+nav{
+    background-color:rgb(171, 127, 151);
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;   
+    height:80px;
+    border-bottom:2px solid black; 
+    position:sticky; 
+    top:0; 
+}
+#logo {
+    height:90px;
+    width:130px;
+}
+
+#logo_box {
+    height:100px;
+    width:150;
+    /* background-color:purple; */
+    display: flex;
+    justify-content: center;
+}
+
+#search_container {
+     height:100%;
+    width:270px;
+    /* background-color:purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search_container > input {
+   margin-left: 30px;
+   padding-left:15px;
+    height:40px;
+    width:100%;
+    border:1px solid gray;
+    border-radius: 10px;
+}
+
+#search_container > label {
+    font-weight:bold;
+}
+
+#link{
+    height:100%;
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#link > a{
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+
+}
+
+#root{
+    display:flex;
+    flex-wrap:wrap;
+    gap:75px;
+    padding-left:75px;
+    padding-top:50px;
+    background-color:pink;
+    height:6000px;
+}
+
+.cart{
+    background-color:rgb(228, 110, 214);
+    height:500px;
+    width:350px;
+    border-radius: 20px;
+    box-shadow:10px 10px 10px gray;
+}
+
+.img_container {
+    height:60%;
+    width:100%;
+     background-color:bisque;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     border-bottom: 2px solid;
+}
+
+.img_container > img{
+    height:100%;
+    width:auto;
+}
+
+ .main_container{
+    height:40%;
+    padding:20px;
+}
+
+.viewcontainer{
+    height:40px;
+    width:100%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+.viewcontainer > a {
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* span{
+    font-weight:
+} */
+
+#popup{
+    height:60vh;
+    width:40vw;
+    background-color:rgb(141, 112, 168);
+    position:fixed;
+    top:200px;
+    left:400px;
+    border-radius: 20px;
+    padding:30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#btn{
+   height:30px;
+    width:60px;
+    background-color:violet; 
+    color:black;
+    font-size: 15px;
+    border:none; 
+    border-radius:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Left Side */
+.left{
+    width:45%;
+    color:white;
+}
+
+.left h1{
+    font-size:55px;
+    margin:0;
+    line-height:60px;
+}
+
+.left h2{
+    font-size:38px;
+    color:yellow;
+    margin:15px 0;
+}
+
+.left p{
+    font-size:20px;
+    margin:8px 0;
+}
+
+/* Right Side */
+.right{
+    width:45%;
+    background:rgb(238, 191, 216);
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+}
+
+/* Coupon Heading */
+.right h3{
+    margin-bottom:15px;
+    font-size:25px;
+}
+
+/* Coupon Box */
+.coupon{
+    background:white;
+    color:rgb(188, 13, 112);
+    font-size:20px;
+    font-weight:bold;
+    padding:15px;
+    border:2px dashed hotpink;
+    border-radius:10px;
+    margin-bottom:25px;
+}
+
+/* Shop Button */
+.shopBtn{
+    background: rgb(228, 76, 162);
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:20px;
+    border-radius:30px;
+    cursor:pointer;
+     transition:0.3s; 
+}
+
+.shopBtn:hover{
+    background: rgb(188, 13, 112);
+    transform:scale(1.05);
+}
+
+/* Close Button */
+#closeBtn{
+    position:absolute;
+    top:15px;
+    right:20px;
+    background:rgb(222, 56, 150);
+    color:white;
+    border:none;
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    cursor:pointer;
+    font-size:20px;
+}
+#closeBtn:hover{
+    background:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(153, 94, 126);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    border-bottom: 2px solid black;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    height: 90px;
+    width: 130px;
+}
+
+#logo_box {
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+/* #search_container {
+    height: 100%;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+#search_container input {
+    margin-left: 30px;
+    padding-left: 15px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#search_container label {
+    font-weight: bold;
+}
+
+#link {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#link a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.box {
+    display: flex;
+    width: 80vw;
+    margin: 40px auto;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgb(153, 94, 126);
+}
+
+.leftbox {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 102, 120);
+    border-radius: 40px 0 0 40px;
+}
+
+.leftbox img {
+    height: 350px;
+}
+
+.rightbox {
+    width: 60%;
+    padding: 50px;
+    background-color:pink;
+    border-radius: 0 40px 40px 0;
+}
+
+.producttitle {
+    font-weight: bold;
+}
+
+.rightbox button {
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#product ~ h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#reviews {
+    width: 50vw;
+    margin: 40px auto;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgb(237, 149, 198);
+    background-color: pink;
+    padding: 30px;
+}
+
+.review_card {
+    background-color:rgb(199, 36, 63);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.reviewHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+#newreview {
+    height: 60px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+
+#newreview + button {
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color:rgb(199, 36, 63);
+    cursor: pointer;
+}
+
+
+
+
+#search_container{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+#searchproduct{
+    height:40px;
+    width:220px;
+    padding-left:10px;
+    border:1px solid gray;
+    border-radius:10px;
+    outline:none;
+}
+
+#searchbtn{
+    height:40px;
+    width:90px;
+    border:none;
+    border-radius:10px;
+    background-color:brown;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+
+#searchbtn:hover{
+    background-color:darkred;
+}
